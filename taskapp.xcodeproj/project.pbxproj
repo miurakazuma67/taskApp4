@@ -15,6 +15,7 @@
 		A47AEC7F24E374E000DBA603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47AEC7D24E374E000DBA603 /* Main.storyboard */; };
 		A47AEC8124E374E200DBA603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47AEC8024E374E200DBA603 /* Assets.xcassets */; };
 		A47AEC8424E374E200DBA603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47AEC8224E374E200DBA603 /* LaunchScreen.storyboard */; };
+		A4EEA19124E9559E006A1CD3 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EEA19024E9559E006A1CD3 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A47AEC8024E374E200DBA603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47AEC8324E374E200DBA603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A47AEC8524E374E200DBA603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EEA19024E9559E006A1CD3 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,6 @@
 				6FAE3574087A1980B5105E0A /* Pods-taskapp.debug.xcconfig */,
 				49A5F0E9D0B8E1F83E1D9423 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +92,7 @@
 				A47AEC8024E374E200DBA603 /* Assets.xcassets */,
 				A47AEC8224E374E200DBA603 /* LaunchScreen.storyboard */,
 				A47AEC8524E374E200DBA603 /* Info.plist */,
+				A4EEA19024E9559E006A1CD3 /* Task.swift */,
 			);
 			path = taskapp;
 			sourceTree = "<group>";
@@ -194,6 +196,7 @@
 			files = (
 				A47AEC7C24E374E000DBA603 /* ViewController.swift in Sources */,
 				A47AEC7824E374E000DBA603 /* AppDelegate.swift in Sources */,
+				A4EEA19124E9559E006A1CD3 /* Task.swift in Sources */,
 				A47AEC7A24E374E000DBA603 /* SceneDelegate.swift in Sources */,
 				A44A18FC24E62F290077905E /* inputViewController.swift in Sources */,
 			);
