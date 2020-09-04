@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,7 +15,7 @@
 		A47AEC7F24E374E000DBA603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47AEC7D24E374E000DBA603 /* Main.storyboard */; };
 		A47AEC8124E374E200DBA603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47AEC8024E374E200DBA603 /* Assets.xcassets */; };
 		A47AEC8424E374E200DBA603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47AEC8224E374E200DBA603 /* LaunchScreen.storyboard */; };
-		A4EEA19124E9559E006A1CD3 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EEA19024E9559E006A1CD3 /* Task.swift */; };
+		CE87F57E24EA9F7F00175246 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87F57D24EA9F7F00175246 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		A47AEC8024E374E200DBA603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47AEC8324E374E200DBA603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A47AEC8524E374E200DBA603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4EEA19024E9559E006A1CD3 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		CE87F57D24EA9F7F00175246 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +89,10 @@
 				A47AEC7B24E374E000DBA603 /* ViewController.swift */,
 				A44A18FB24E62F290077905E /* inputViewController.swift */,
 				A47AEC7D24E374E000DBA603 /* Main.storyboard */,
+				CE87F57D24EA9F7F00175246 /* Task.swift */,
 				A47AEC8024E374E200DBA603 /* Assets.xcassets */,
 				A47AEC8224E374E200DBA603 /* LaunchScreen.storyboard */,
 				A47AEC8524E374E200DBA603 /* Info.plist */,
-				A4EEA19024E9559E006A1CD3 /* Task.swift */,
 			);
 			path = taskapp;
 			sourceTree = "<group>";
@@ -108,6 +108,7 @@
 				A47AEC7024E374E000DBA603 /* Sources */,
 				A47AEC7124E374E000DBA603 /* Frameworks */,
 				A47AEC7224E374E000DBA603 /* Resources */,
+				9BF532238DBD6CFAD1FB4E3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +166,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9BF532238DBD6CFAD1FB4E3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taskapp/Pods-taskapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taskapp/Pods-taskapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taskapp/Pods-taskapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E6D4820270E27DBF77A35ECA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,7 +214,7 @@
 			files = (
 				A47AEC7C24E374E000DBA603 /* ViewController.swift in Sources */,
 				A47AEC7824E374E000DBA603 /* AppDelegate.swift in Sources */,
-				A4EEA19124E9559E006A1CD3 /* Task.swift in Sources */,
+				CE87F57E24EA9F7F00175246 /* Task.swift in Sources */,
 				A47AEC7A24E374E000DBA603 /* SceneDelegate.swift in Sources */,
 				A44A18FC24E62F290077905E /* inputViewController.swift in Sources */,
 			);

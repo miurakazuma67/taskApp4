@@ -2,10 +2,11 @@
 //  Task.swift
 //  taskapp
 //
-//  Created by 三浦　一真 on 2020/08/16.
+//  Created by 三浦　一真 on 2020/08/17.
 //  Copyright © 2020 Kazuma Miura. All rights reserved.
 //
 
+import Foundation
 import RealmSwift
 
 class Task: Object {
@@ -17,6 +18,9 @@ class Task: Object {
 
     // 内容
     @objc dynamic var contents = ""
+    
+    // カテゴリ
+    @objc dynamic var category = ""
 
     // 日時
     @objc dynamic var date = Date()
