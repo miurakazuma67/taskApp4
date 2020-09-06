@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jFb-dM-gqx">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jFb-dM-gqx">
                                 <rect key="frame" x="0.0" y="144" width="414" height="718"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
@@ -65,13 +65,14 @@
                     <navigationItem key="navigationItem" id="sNn-fC-7ut">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="azb-H0-pNg">
                             <connections>
-                                <segue destination="cvq-oE-vli" kind="show" id="Ypn-Y3-7tD"/>
+                                <segue destination="cvq-oE-vli" kind="show" id="6ww-Gz-atp"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="searchBar" destination="LZc-Gb-PIP" id="hXV-d1-sbS"/>
                         <outlet property="tableView" destination="jFb-dM-gqx" id="i4A-01-n6y"/>
+                        <segue destination="cvq-oE-vli" kind="show" identifier="cellSegue" id="cUV-n6-FPJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -195,4 +196,7 @@
             <point key="canvasLocation" x="131.8840579710145" y="113.83928571428571"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="cUV-n6-FPJ"/>
+    </inferredMetricsTieBreakers>
 </document>
